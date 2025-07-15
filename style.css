@@ -55,13 +55,14 @@ body {
 
 .caption-item.js {
     background-color: yellow;
+    height: 500px;
 }
 
 .caption-item.git {
-    background-color: white;
+    background-color: rgb(215, 51, 51);
 }
 
 .caption-item.react {
-    background-color: white;
+    background-color: rgb(65, 203, 6);
 }
 
