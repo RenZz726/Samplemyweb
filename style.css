@@ -1,0 +1,67 @@
+body {
+    font-family: 'Baloo Chettan 2', Verdana, sans-serif;
+    margin: 0;
+    color: #323232;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.header {
+    background-color: #774ef7;
+    color: white;
+    padding: 10px 20px 20px 20px;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.title-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    position: absolute;
+    top: 41px;
+    left: 67px;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #;
+}
+
+.caption-item {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+    font-size: 20px;
+    background-color: green;
+}
+
+.caption-item.js {
+    background-color: yellow;
+}
+
+.caption-item.git {
+    background-color: white;
+}
+
+.caption-item.react {
+    background-color: white;
+}
+
